@@ -1,0 +1,41 @@
+body {padding: 5em;
+    margin: 10 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+  }
+form {
+        /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 200px;
+}
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+font: 1em sans-serif;
+
+    /* To give the same size to all text fields */
+width: 400px;
+box-sizing: border-box;
+border-radius: 5em;
+/* To harmonize the look & feel of text field border */
+border: 0.5px solid #999;
+}
+
+.button {
+/* To position the buttons to the same position of the text fields */
+padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+/* This extra margin represent roughly the same space as the space
+between the labels and their text fields */
+margin-left: 7em;
+border-radius: .2em;
+}
