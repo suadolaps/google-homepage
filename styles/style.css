@@ -8,7 +8,14 @@ ul {
     overflow: hidden;
 }
 li {
-    display: inline;
+    float: right;
+  }
+  li a{
+    display: block;
+    padding: 12px 12px;
+    color: black; 
+    text-align: center;
+    text-decoration: none;
   }
 form {
         /* Just to center the form on the page */
@@ -38,4 +45,16 @@ button {
 between the labels and their text fields */
 margin-left: 7em;
 border-radius: .2em;
+}
+button a{
+    text-decoration: none;
+}
+footer, footer ul{
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    width: 100%;
+    color: rgb(95, 92, 92); 
+}
+footer li a{
+    color: rgb(95, 92, 92); 
 }
