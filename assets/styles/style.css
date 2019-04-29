@@ -82,25 +82,22 @@ input, textarea {
 font: 1.5em sans-serif;
 
     /* To give the same size to all text fields */
-width: 50%;
+width: 60%;
 box-sizing: border-box;
-border-radius: 5em;
+border-radius: 8em;
 /* To harmonize the look & feel of text field border */
 border: 0.5px solid #999;
-}
-
-.button {
-/* To position the buttons to the same position of the text fields */
-padding-left: 100px; /* same size as the label elements */
 }
 
 button {
 /* This extra margin represent roughly the same space as the space
 between the labels and their text fields */
-margin-left: 3em;
-border-radius: .2em;
+margin-left: 1em;
+border-radius: .4em;
 font-size: 11pt;
 color: black;
+background-color: whitesmoke;
+border-color: none;
 }
 button a{
     text-decoration: none;
