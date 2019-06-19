@@ -38,9 +38,9 @@ textarea {
 }
 
 button {
-  border-radius: 1em;
+  border-radius: 4px;
   background-color: rgb(233, 233, 233);
-  border-color: none;
+  border-color: rgb(233, 233, 233);
   color: rgb(80, 77, 77);
   font-size: 14px;
   line-height: 18px;
