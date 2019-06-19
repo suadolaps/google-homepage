@@ -1,123 +1,97 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
+body {
+  -webkit-appearance: none;
+  height: 100%;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+div.body {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-html {
-	margin: 0;
-	padding: 0;
-	}
-body {padding: 5em;
-    margin: 7 auto;
-    -webkit-appearance: none;
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  overflow: hidden;
 }
 li {
-    float: right;
-  }
-  li a{
-    display: block;
-    padding: 12px 12px;
-    color: black; 
-    text-align: center;
-    text-decoration: none;
-  }
-form {
-        /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 200px;
+  float: right;
 }
-input, textarea {
-    /* To make sure that all text fields have the same font settings
-    By default, textareas have a monospace font */
-font: 1.5em sans-serif;
+li a {
+  display: block;
+  padding: 12px 12px;
+  font-size: 14px;
+  color: rgb(97, 94, 94);
+  text-align: center;
+  text-decoration: none;
+}
 
-    /* To give the same size to all text fields */
-width: 60%;
-box-sizing: border-box;
-border-radius: 8em;
-/* To harmonize the look & feel of text field border */
-border: 0.5px solid #999;
+input,
+textarea {
+  border-radius: 8em;
+  border: 0.5px solid #999;
+  box-sizing: border-box;
+  display: block;
+  font: 18px sans-serif;
+  margin: 0 auto;
+  padding: 5px;
+  width: 60%;
 }
 
 button {
-/* This extra margin represent roughly the same space as the space
-between the labels and their text fields */
-margin-left: 1em;
-border-radius: .4em;
-font-size: 11pt;
-color: black;
-background-color: whitesmoke;
-border-color: none;
-width: 25%;
-height: 20pt;
+  border-radius: 1em;
+  background-color: rgb(233, 233, 233);
+  border-color: none;
+  color: rgb(80, 77, 77);
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 1em;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all 200ms ease;
 }
-button a{
-    text-decoration: none;
-    color: black;
+button a {
+  color: rgb(80, 77, 77);
+  text-decoration: none;
 }
-footer, footer ul{
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-    width: 100%;
-    color: rgb(95, 92, 92);
-    bottom: 0;
-    margin: 0;
-    padding: 0;   
+button:hover {
+  background-color: whitesmoke;
+  border: 0.8px solid rgb(186, 186, 192);
+  color: black;
+  cursor: pointer;
 }
-footer p{
-    text-align: left;
+p {
+  font-size: 12px;
 }
-footer li a{
-    color: rgb(95, 92, 92); 
-    width:100%;
+p a {
+  text-decoration: none;
+}
+p a:hover {
+  text-decoration: underline;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer,
+footer ul {
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  color: rgb(95, 92, 92);
+}
+footer p {
+  text-align: left;
+  font-size: 14px;
+  padding: 1px 20px;
+}
+footer li a {
+  color: rgb(95, 92, 92);
+  display: block;
+  font-size: 12px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 100%;
+}
+footer li a:hover {
+  text-decoration: underline;
 }
